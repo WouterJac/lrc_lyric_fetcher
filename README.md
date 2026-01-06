@@ -36,7 +36,7 @@ pip install mutagen requests tqdm
 
 ## Installation
 
-1. Download `lrcfetch.py` and place it in a convenient folder.
+1. Download `lrc_lyric_fetcher.py` and place it in a convenient folder.
 2. Ensure your music library is organized in folders (Artist/Album/Track).
 3. Run the script from the terminal.
 
@@ -45,7 +45,7 @@ pip install mutagen requests tqdm
 ## Usage
 
 ```bash
-python lrcfetch.py <music_folder> [options]
+python lrc_lyric_fetcher.py <music_folder> [options]
 ```
 
 ### Positional Arguments
@@ -61,7 +61,7 @@ python lrcfetch.py <music_folder> [options]
 ### Example
 
 ```bash
-python lrcfetch.py ~/Music --workers 5 --unsynced
+python lrc_lyric_fetcher.py ~/Music --workers 5 --unsynced
 ```
 
 This will process your music library at `~/Music` using 5 parallel workers and allow unsynced lyrics as fallback.
