@@ -1,6 +1,6 @@
-# lrc_lyric_fetcher: Offline Lyrics Fetcher for Music Libraries
+# lrc_lyric_fetcher: 
 
-A fast, parallel, and polite tool to fetch LRC lyrics for your offline music library using the LRCLIB API. This tool supports album-level batching, failed-lookup caching, and per-album progress reporting, making it ideal for large music collections.
+A fast, parallel and efficient tool to fetch LRC lyrics for your offline music library using the LRCLIB API. This tool supports album-level batching, failed-lookup caching, and per-album progress reporting, making it ideal for large music collections.
 Coded with help from AI coding tools.
 
 ---
