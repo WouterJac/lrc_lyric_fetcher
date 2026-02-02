@@ -1,0 +1,10 @@
+version: 3.9
+
+services:
+    lrc_lyrics_fetcher:
+        build: https://github.com/pabsan-0/iframe-dashboard.git
+        container_name: lrc_lyrics_fetcher 
+        volumes:
+            - ${MEDIA_DIRECTORY}/music:/music
+        restart: unless-stopped
+
